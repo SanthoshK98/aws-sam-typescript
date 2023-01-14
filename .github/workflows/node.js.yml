@@ -33,5 +33,5 @@ jobs:
         aws-region: ap-south-1
     - run: cd app && npm ci
     - run: sam build
-    - run: zip -r publish.zip ./.aws-sam/build/*
+    - run: zip -r publish.zip ./app/*
     - run: aws lambda update-function-code --function-name=aws-sam-deploy-TypescriptFunction-ug2QEU1Jh2RC --zip-file=fileb://publish.zip
