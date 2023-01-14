@@ -2,7 +2,7 @@ import express from 'express'
 const routes = express.Router()
 
 routes.get('/getdata',(req: any, res: any)=>{
-    res.status(200).send('Hello Typescript')
+    res.status(200).send('Welcome to Typescript World')
 })
 
 routes.get('/getstatus',(req: any, res: any)=>{

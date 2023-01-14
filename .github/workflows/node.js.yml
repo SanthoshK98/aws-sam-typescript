@@ -33,4 +33,4 @@ jobs:
         aws-region: ap-south-1
     - run: cd app && npm ci
     - run: sam build
-    - run: CI=true sam deploy
+    - run: sam deploy --no-confirm-changeset
