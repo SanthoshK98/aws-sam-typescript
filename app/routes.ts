@@ -6,7 +6,7 @@ routes.get('/getdata',(req: any, res: any)=>{
 })
 
 routes.get('/getstatus',(req: any, res: any)=>{
-    res.send('Hello World Typescript Again and Again')
+    res.send('Hello World Typescript, I am Santhosh')
 })
 
 routes.post('/senddata',(req: any,res: any)=>{
